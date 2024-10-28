@@ -6,6 +6,7 @@ html {
 *{
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 body {
@@ -135,7 +136,7 @@ a:hover {
 /*Section 3 */
 
 .section_3 {
-  background-color: rgba(6, 12, 52, 0.87);
+  background-color: #0f6c24;
 }
 
 .section_wrapper_3 {
@@ -184,4 +185,41 @@ a:hover {
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
+}
+
+
+/* Section de items*/
+
+.section_wrapper_items{
+  display: flex;
+  flex-direction: column;
+}
+
+.items_header {
+  padding: 50px ;
+  color: #0f6c24;
+  font-weight: 700;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #052d0c;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 50px;
+  flex-wrap: wrap;
+  }
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  background-color: #f0f4f5;
+  border: 2px solid #dfdfe0;
+  border-radius: 25px;
+  }
+
+.item_info {
+  word-break: break-word;
 }
