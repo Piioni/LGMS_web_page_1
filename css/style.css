@@ -155,7 +155,7 @@ a:hover {
 }
 
 .respuesta_2 {
-  color: #d9e6f1;
+  color: rgb(228, 226, 222);
   font-size: 16px;
   text-align: justify;
 }
@@ -262,4 +262,71 @@ a:hover {
   word-break: break-word;
   text-align: justify;
   color: #e8e6e3;
+}
+
+/*Section del contacto */
+
+.titulo {
+  font-size: 70px;
+}
+
+.section_formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #181a1b;
+}
+
+.formulario_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 300px;
+}
+
+.formulario_left {
+  width: 600px;
+}
+
+.heading_formulario {
+  font-size: 30px;
+  color: rgb(135, 238, 158);
+  margin-bottom: 20px;
+}
+
+.formulario_text{
+  color: #e8e6e3;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.form_image {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  background-color: #074f14;
+  padding: 27px;
+  border-radius: 25px;
+}
+
+.form_label {
+  color: #e8e6e3;
+
+}
+
+input, textarea {
+  height: 30px;
+  background-color: #1e2021;
+  margin-bottom: 10px;
+}
+
+.button_form {
+  padding: 8px;
+  margin: 16px;
+  background-color: rgba(224, 224, 224, 0.71);
 }
