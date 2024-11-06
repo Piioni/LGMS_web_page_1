@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: sans-serif;
+  color: #e8e6e3;
 }
 
 img {
@@ -281,7 +282,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  gap: 300px;
+  gap: 220px;
 }
 
 .formulario_left {
@@ -316,7 +317,12 @@ a:hover {
 
 .form_label {
   color: #e8e6e3;
+  font-size: 17px;
+}
 
+.input_text, .input_number::placeholder {
+  color: #c9b4b4;
+  font-size: 15px;
 }
 
 input, textarea {
@@ -329,4 +335,36 @@ input, textarea {
   padding: 8px;
   margin: 16px;
   background-color: rgba(224, 224, 224, 0.71);
+  width: 170px;
+  border-radius: 25px;
+  align-self: center;
+}
+
+/*Pagina de confirmation del formulario */
+
+.sent_form{
+  background-color: #1e2021;
+}
+
+.sent_form_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+.confirmation {
+  margin-top: 30px;
+}
+
+.sent_form_image {
+  margin: 40px;
+  display: block;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.button_sent_form {
+  margin: 40px;
+  background-color: #074f14;
+  width: 200px;
 }

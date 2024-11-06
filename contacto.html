@@ -41,18 +41,18 @@
       <img class="form_image" src="img/logo.png" alt="arbol amarillo">
     </div>
     <div class="formulario_right">
-      <form class="formulario" action="mailto:tarea2@foc.es">
+      <form class="formulario" action="./sent_form.html" method="post">
         <label class="form_label" for="name"> Nombres </label>
-        <input class="input_text" type="text" name="name" id="name" placeholder="Nombres" size="30">
+        <input class="input_text" required type="text" name="name" id="name" placeholder="Nombres" size="30">
         <label class="form_label" for="apellidos"> Apellidos </label>
-        <input class="input_text" type="text" name="apelliidos" id="apellidos" placeholder="Apellidos">
+        <input class="input_text" required type="text" name="apelliidos" id="apellidos" placeholder="Apellidos">
         <label class="form_label" for="edad"> Edad </label>
-        <input class="input_number" type="number" min="16" max="99" name="edad" id="edad" placeholder="18">
+        <input class="input_number" required type="number" min="16" max="99" name="edad" id="edad" placeholder="18">
         <label class="form_label" for="email"> Correo electronico </label>
-        <input class="input_text" type="email" name="email" id="email" size="50" placeholder="pepito1@gmal.com">
+        <input class="input_text" required type="email" name="email" id="email" size="50" placeholder="pepito1@gmal.com">
         <label class="form_label" for="comentarios">Comentarios adiconales </label>
-        <textarea class="input_text area" id="comentarios" placeholder="Dejanos un mensaje!"></textarea>
-        <a class="button_form"> Enviar! </a>
+        <textarea class="input_text area" required cols="50" rows="50" id="comentarios" placeholder="Dejanos un mensaje!"></textarea>
+        <input type="submit" class="button_form" value="Enviar formulario">
        </form>
     </div>
   </div>
