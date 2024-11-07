@@ -191,6 +191,7 @@ a:hover {
   background-color: #ff7d25;
 }
 
+/* Section del footer*/
 .footer {
   height: 70px;
   display: flex;
@@ -320,12 +321,23 @@ a:hover {
   font-size: 17px;
 }
 
-.input_text, .input_number::placeholder {
-  color: #c9b4b4;
+.input_text::placeholder, .input_number::placeholder{
+  color: #706767;
   font-size: 15px;
 }
 
-input, textarea {
+.input_number, .input_text {
+  color: #e8e6e3;
+  font-size: 15px;
+}
+
+textarea {
+  max-width: fit-content;
+  background-color:#1e2021 ;
+  margin-bottom: 10px;
+}
+
+input {
   height: 30px;
   background-color: #1e2021;
   margin-bottom: 10px;
